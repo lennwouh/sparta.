@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112576862869876900EB0469 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112576852869876900EB0469 /* menuView.swift */; };
+		112576872869876900EB0469 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112576852869876900EB0469 /* menuView.swift */; };
+		112576892869CBD300EB0469 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112576882869CBD300EB0469 /* test.swift */; };
+		1125768A2869CBD300EB0469 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112576882869CBD300EB0469 /* test.swift */; };
+		1125768C286B225A00EB0469 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1125768B286B225900EB0469 /* Launch Screen.storyboard */; };
+		1125768D286B225A00EB0469 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1125768B286B225900EB0469 /* Launch Screen.storyboard */; };
+		1162E7C728734D940039E706 /* API_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162E7C628734D940039E706 /* API_data.swift */; };
+		1162E7C828734D940039E706 /* API_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1162E7C628734D940039E706 /* API_data.swift */; };
+		116766882860B2AA0010DA17 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116766872860B2AA0010DA17 /* Tests_iOS.swift */; };
+		1167668A2860B2AA0010DA17 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116766892860B2AA0010DA17 /* Tests_iOSLaunchTests.swift */; };
+		116766942860B2AA0010DA17 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116766932860B2AA0010DA17 /* Tests_macOS.swift */; };
+		116766962860B2AA0010DA17 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116766952860B2AA0010DA17 /* Tests_macOSLaunchTests.swift */; };
+		116766972860B2AA0010DA17 /* tanken_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167666F2860B2A30010DA17 /* tanken_appApp.swift */; };
+		116766982860B2AA0010DA17 /* tanken_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167666F2860B2A30010DA17 /* tanken_appApp.swift */; };
+		116766992860B2AA0010DA17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116766702860B2A30010DA17 /* ContentView.swift */; };
+		1167669A2860B2AA0010DA17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116766702860B2A30010DA17 /* ContentView.swift */; };
+		1167669B2860B2AA0010DA17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116766712860B2AA0010DA17 /* Assets.xcassets */; };
+		1167669C2860B2AA0010DA17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116766712860B2AA0010DA17 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		116766842860B2AA0010DA17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1167666A2860B2A30010DA17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116766752860B2AA0010DA17;
+			remoteInfo = "tanken-app (iOS)";
+		};
+		116766902860B2AA0010DA17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1167666A2860B2A30010DA17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1167667B2860B2AA0010DA17;
+			remoteInfo = "tanken-app (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112576852869876900EB0469 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
+		112576882869CBD300EB0469 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		1125768B286B225900EB0469 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1162E7C628734D940039E706 /* API_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_data.swift; sourceTree = "<group>"; };
+		1167666F2860B2A30010DA17 /* tanken_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanken_appApp.swift; sourceTree = "<group>"; };
+		116766702860B2A30010DA17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		116766712860B2AA0010DA17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116766762860B2AA0010DA17 /* sparta..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sparta..app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1167667C2860B2AA0010DA17 /* sparta..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sparta..app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1167667E2860B2AA0010DA17 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		116766832860B2AA0010DA17 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		116766872860B2AA0010DA17 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		116766892860B2AA0010DA17 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		1167668F2860B2AA0010DA17 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		116766932860B2AA0010DA17 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		116766952860B2AA0010DA17 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116766732860B2AA0010DA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116766792860B2AA0010DA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116766802860B2AA0010DA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167668C2860B2AA0010DA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116766692860B2A30010DA17 = {
+			isa = PBXGroup;
+			children = (
+				1167666E2860B2A30010DA17 /* Shared */,
+				1167667D2860B2AA0010DA17 /* macOS */,
+				116766862860B2AA0010DA17 /* Tests iOS */,
+				116766922860B2AA0010DA17 /* Tests macOS */,
+				116766772860B2AA0010DA17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1167666E2860B2A30010DA17 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1167666F2860B2A30010DA17 /* tanken_appApp.swift */,
+				116766702860B2A30010DA17 /* ContentView.swift */,
+				116766712860B2AA0010DA17 /* Assets.xcassets */,
+				112576852869876900EB0469 /* menuView.swift */,
+				112576882869CBD300EB0469 /* test.swift */,
+				1125768B286B225900EB0469 /* Launch Screen.storyboard */,
+				1162E7C628734D940039E706 /* API_data.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		116766772860B2AA0010DA17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116766762860B2AA0010DA17 /* sparta..app */,
+				1167667C2860B2AA0010DA17 /* sparta..app */,
+				116766832860B2AA0010DA17 /* Tests iOS.xctest */,
+				1167668F2860B2AA0010DA17 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1167667D2860B2AA0010DA17 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1167667E2860B2AA0010DA17 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		116766862860B2AA0010DA17 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				116766872860B2AA0010DA17 /* Tests_iOS.swift */,
+				116766892860B2AA0010DA17 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		116766922860B2AA0010DA17 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				116766932860B2AA0010DA17 /* Tests_macOS.swift */,
+				116766952860B2AA0010DA17 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116766752860B2AA0010DA17 /* sparta. (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1167669F2860B2AA0010DA17 /* Build configuration list for PBXNativeTarget "sparta. (iOS)" */;
+			buildPhases = (
+				116766722860B2AA0010DA17 /* Sources */,
+				116766732860B2AA0010DA17 /* Frameworks */,
+				116766742860B2AA0010DA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sparta. (iOS)";
+			productName = "tanken-app (iOS)";
+			productReference = 116766762860B2AA0010DA17 /* sparta..app */;
+			productType = "com.apple.product-type.application";
+		};
+		1167667B2860B2AA0010DA17 /* sparta. (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116766A22860B2AA0010DA17 /* Build configuration list for PBXNativeTarget "sparta. (macOS)" */;
+			buildPhases = (
+				116766782860B2AA0010DA17 /* Sources */,
+				116766792860B2AA0010DA17 /* Frameworks */,
+				1167667A2860B2AA0010DA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sparta. (macOS)";
+			productName = "tanken-app (macOS)";
+			productReference = 1167667C2860B2AA0010DA17 /* sparta..app */;
+			productType = "com.apple.product-type.application";
+		};
+		116766822860B2AA0010DA17 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116766A52860B2AA0010DA17 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				1167667F2860B2AA0010DA17 /* Sources */,
+				116766802860B2AA0010DA17 /* Frameworks */,
+				116766812860B2AA0010DA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116766852860B2AA0010DA17 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 116766832860B2AA0010DA17 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1167668E2860B2AA0010DA17 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116766A82860B2AA0010DA17 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				1167668B2860B2AA0010DA17 /* Sources */,
+				1167668C2860B2AA0010DA17 /* Frameworks */,
+				1167668D2860B2AA0010DA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116766912860B2AA0010DA17 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 1167668F2860B2AA0010DA17 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1167666A2860B2A30010DA17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					116766752860B2AA0010DA17 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1167667B2860B2AA0010DA17 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					116766822860B2AA0010DA17 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 116766752860B2AA0010DA17;
+					};
+					1167668E2860B2AA0010DA17 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1167667B2860B2AA0010DA17;
+					};
+				};
+			};
+			buildConfigurationList = 1167666D2860B2A30010DA17 /* Build configuration list for PBXProject "sparta." */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116766692860B2A30010DA17;
+			productRefGroup = 116766772860B2AA0010DA17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116766752860B2AA0010DA17 /* sparta. (iOS) */,
+				1167667B2860B2AA0010DA17 /* sparta. (macOS) */,
+				116766822860B2AA0010DA17 /* Tests iOS */,
+				1167668E2860B2AA0010DA17 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116766742860B2AA0010DA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1125768C286B225A00EB0469 /* Launch Screen.storyboard in Resources */,
+				1167669B2860B2AA0010DA17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167667A2860B2AA0010DA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1125768D286B225A00EB0469 /* Launch Screen.storyboard in Resources */,
+				1167669C2860B2AA0010DA17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116766812860B2AA0010DA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167668D2860B2AA0010DA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116766722860B2AA0010DA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112576862869876900EB0469 /* menuView.swift in Sources */,
+				112576892869CBD300EB0469 /* test.swift in Sources */,
+				116766992860B2AA0010DA17 /* ContentView.swift in Sources */,
+				116766972860B2AA0010DA17 /* tanken_appApp.swift in Sources */,
+				1162E7C728734D940039E706 /* API_data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116766782860B2AA0010DA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112576872869876900EB0469 /* menuView.swift in Sources */,
+				1125768A2869CBD300EB0469 /* test.swift in Sources */,
+				1167669A2860B2AA0010DA17 /* ContentView.swift in Sources */,
+				116766982860B2AA0010DA17 /* tanken_appApp.swift in Sources */,
+				1162E7C828734D940039E706 /* API_data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167667F2860B2AA0010DA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1167668A2860B2AA0010DA17 /* Tests_iOSLaunchTests.swift in Sources */,
+				116766882860B2AA0010DA17 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1167668B2860B2AA0010DA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116766962860B2AA0010DA17 /* Tests_macOSLaunchTests.swift in Sources */,
+				116766942860B2AA0010DA17 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		116766852860B2AA0010DA17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116766752860B2AA0010DA17 /* sparta. (iOS) */;
+			targetProxy = 116766842860B2AA0010DA17 /* PBXContainerItemProxy */;
+		};
+		116766912860B2AA0010DA17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1167667B2860B2AA0010DA17 /* sparta. (macOS) */;
+			targetProxy = 116766902860B2AA0010DA17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1167669D2860B2AA0010DA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1167669E2860B2AA0010DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		116766A02860B2AA0010DA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75GXM45KM5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.sparta.;
+				PRODUCT_NAME = sparta.;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		116766A12860B2AA0010DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 75GXM45KM5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.sparta.;
+				PRODUCT_NAME = sparta.;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116766A32860B2AA0010DA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.tanken-app";
+				PRODUCT_NAME = sparta.;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		116766A42860B2AA0010DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.tanken-app";
+				PRODUCT_NAME = sparta.;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		116766A62860B2AA0010DA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tanken-app (iOS)";
+			};
+			name = Debug;
+		};
+		116766A72860B2AA0010DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tanken-app (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116766A92860B2AA0010DA17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tanken-app (macOS)";
+			};
+			name = Debug;
+		};
+		116766AA2860B2AA0010DA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tanken-app (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1167666D2860B2A30010DA17 /* Build configuration list for PBXProject "sparta." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1167669D2860B2AA0010DA17 /* Debug */,
+				1167669E2860B2AA0010DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1167669F2860B2AA0010DA17 /* Build configuration list for PBXNativeTarget "sparta. (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116766A02860B2AA0010DA17 /* Debug */,
+				116766A12860B2AA0010DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116766A22860B2AA0010DA17 /* Build configuration list for PBXNativeTarget "sparta. (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116766A32860B2AA0010DA17 /* Debug */,
+				116766A42860B2AA0010DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116766A52860B2AA0010DA17 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116766A62860B2AA0010DA17 /* Debug */,
+				116766A72860B2AA0010DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116766A82860B2AA0010DA17 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116766A92860B2AA0010DA17 /* Debug */,
+				116766AA2860B2AA0010DA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1167666A2860B2A30010DA17 /* Project object */;
+}
