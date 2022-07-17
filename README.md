@@ -1,6 +1,6 @@
 # sparta.
 
-![Screenshot](README resources/productView.jpg)
+![Screenshot](productView.jpg)
 
 
 
