@@ -9,33 +9,83 @@ import SwiftUI
 
 struct test: View {
     
-    @State var searchQuery = ""
+    @State var gas_stations: [Gas_station] = []
+    @State var apiData2 = API()
+    @State var fuckyoufuckyou = ["Fuck", "you"]
+    @State var hoolegan = "FUCK"
+    
+    
+   
+    
+    
     
     var body: some View {
         
-        HStack{
+        
+        
             
-            Spacer()
         
         
         
-            VStack(alignment: .leading){
-        Text("Hello, Wrld!")
+        NavigationView {
             
-            Text("Hello, World!")
+            HStack{
+                
+                
+                Text(buttonTitle)
+                   
             
-            Text("Hello, Wod!")
-            
-            Text("Hello, World!")
-                    .searchable(text: $searchQuery, prompt: "Search")
-            
+            Button(hoolegan) {
+                
+                testingtesting.append("FUCK")
+                fuckyoufuckyou.append("bitch")
+                print(fuckyoufuckyou)
+                print(testingtesting)
+                print(placeList)
+                print(buttonTitle)
+                
             }
             
-        
+            Button("uff"){
+                hoolegan = "yeah"
+            }
+            }
+            List(gas_stations) { station in
+            
+                
+                Text("piData2.emptyList")
+                
+                
+                
+                    
+               
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    }.onAppear() {
+                        API().getGas_stations { (gas_stations) in
+                            
+                            self.gas_stations = gas_stations
+                        }
+                    }
         }
         
     }
+    
 }
+        
+      
+
 
 struct test_Previews: PreviewProvider {
     static var previews: some View {

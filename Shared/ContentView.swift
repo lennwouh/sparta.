@@ -78,7 +78,8 @@ struct ContentView: View {
 struct MainView: View {
     
     @Binding var showMenu: Bool
- //   @State var gas_stations: [Gas_station] = []
+    @State var gas_stations: [Gas_station] = []
+    @State var apiData = API()
     
     
     func generateCards() -> some View{
@@ -108,9 +109,10 @@ struct MainView: View {
             
         VStack{
             
-        Text("Entfernung: ")
+            Text("Entfernung: ")
                 .padding()
                 .foregroundColor(.white)
+                
             
         Text("Standort: ")
                     .padding()
@@ -138,7 +140,9 @@ struct MainView: View {
             LinearGradient(colors: [Color.black, /*Color(red: 16/255, green: 48/255, blue: 99/255)*/Color.blue], startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
         
-            ScrollView() {
+            ScrollView {
+                
+                
                 
                 
                 
@@ -167,6 +171,9 @@ struct MainView: View {
                         withAnimation{
                         self.showMenu.toggle()
                             print("True")
+                           // print(apiData.brandList)
+                         //   print("This is a list: ", apiData.priceListDiesel)
+                            
                         }
                        
                             
@@ -175,6 +182,7 @@ struct MainView: View {
                         Image(systemName: "line.horizontal.3")
                             .imageScale(.large)
                             .foregroundColor(.white)
+                            
                     }
                 
                 }
@@ -209,17 +217,22 @@ struct MainView: View {
                         
                         HStack{
                         
-                        Image(systemName: "fuelpump")
+                        Image("aral_img")
+                            
+                                .resizable().aspectRatio(contentMode: .fit)
                             .foregroundColor(.white)
-                            .padding(.top, 30)
-                            .padding(.leading, 80)
-                            .frame(width: 100, height: 100)
-                            .font(.system(size: 100))
+                            .padding(30)
+                            .frame(width: 175, height: 175)
+                            //.font(.system(size: 100))
+                            
+                            
                             
                         Spacer()
                             
+                           
+                            
                             Text("2,20€")
-                                .padding()
+                               // .padding()
                                 .font(.system(size: 60))
                                 .foregroundColor(.white)
                                 .padding(.top, 50)
@@ -355,64 +368,23 @@ struct MainView: View {
                     }
                     
                 }
-            }
+            }*/
                 
-                
-                
-                
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.3), lineWidth: 1)
-                    .frame(height: 150)
-                    .background(Color.white)
-                    .opacity(0.5)
-                    .cornerRadius(15)
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.3), lineWidth: 1)
-                    .frame(height: 150)
-                    .background(Color.white)
-                    .opacity(0.5)
-                    .cornerRadius(15)
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.3), lineWidth: 1)
-                    .frame(height: 150)
-                    .background(Color.white)
-                    .opacity(0.5)
-                    .cornerRadius(15)
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.3), lineWidth: 1)
-                    .frame(height: 150)
-                    .background(Color.white)
-                    .opacity(0.5)
-                    .cornerRadius(15)
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.3), lineWidth: 1)
-                    .frame(height: 150)
-                    .background(Color.white)
-                    .opacity(0.5)
-                    .cornerRadius(15)
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.3), lineWidth: 1)
-                    .frame(height: 150)
-                    .background(Color.white)
-                    .opacity(0.5)
-                    .cornerRadius(15)
-                
-                Text("made by lennwouh")
-                    .font(.headline)
-                    .colorInvert()
-                }*/
+          
             }
             
         }.padding()
+                
         }
-            
-                }
+                
+            }
             }
         
         
         
     
     }
+
 
 
 struct ContentView_Previews: PreviewProvider {
@@ -442,4 +414,5 @@ struct ExtractedView: View {
             }
         }
     }
+
 
